@@ -14,7 +14,9 @@ if ( islower (n))
 {
 printf ("%c is a lowercase\n",n);
 }
-else 						{ 						printf ("%cin not in lercase\n",n);
+else 						
+{ 						
+printf ("%c in not in lercase\n",n);
 }
 }
 
