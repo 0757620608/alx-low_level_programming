@@ -1,25 +1,15 @@
 #include "main.h"
 /**
- *  * main-start point
- *
- *   * Description: function check lower charater
- *
- *    * Return: retun 1 if in lower or 0 otherwise
- *
- * */
-int _islower(int c)
+ * _isalpha - function to check if c is a letter, lowercase or uppercase
+ * @c: is the int that will use for the argument of the function
+ * Return: 0
+ */
+int _isalpha(int c)
 {
-int n ='q';
-if ( islower (n))
-{
-printf ("%c is a lowercase\n",n);
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	{
+	return (1);
+	}
+	else
+	return (0);
 }
-else 						
-{ 						
-printf ("%c in not in lercase\n",n);
-}
-}
-
-
-
-
